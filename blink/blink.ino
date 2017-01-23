@@ -11,7 +11,7 @@
 
 //********** Setup ****************************************************************
 void setup(){
-// inicia el pin com a sortida
+// inicia el pin13 com a sortida
 
 
 
