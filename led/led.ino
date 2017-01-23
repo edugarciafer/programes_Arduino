@@ -1,12 +1,27 @@
-void setup() {
-pinMode( 2, OUTPUT) ;  // inicia el pin2 com a sortida
+/**********************************************************************************
+**                                                                               **
+**                             ENGEGAR I ATURAR UN LED                           **
+**                                                                               **
+** EDUARD GARCIA                                                   23/01/2017    **
+**********************************************************************************/
 
+//********************************* INCLUDES **************************************
+
+//********************************* VARIABLES *************************************
+
+//*********************************** SETUP ***************************************
+void setup()
+{
+pinMode (2, OUTPUT); // marca pin2 com a sortida
 }
 
-void loop() {
- digitalWrite(2, HIGH); // engega el pin2
- delay(500); //espera 0.5 segons
- digitalWrite(2, LOW); //atura el pin2
- delay(500); //espera 0.5 segons
-
+//************************************ LOOP ***************************************
+void loop()
+{
+digitalWrite (2, HIGH); // engega pin2 (led)
+delay (500); // espera 0.5 segons
+digitalWrite (2, LOW); // atura pin2 (led)
+delay (500); // espera 0.5 segons
 }
+
+//*********************************** FUNCIONS ************************************
